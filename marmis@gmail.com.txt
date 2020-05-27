@@ -1,8 +1,1 @@
-Product Registered!
-
-
-Username : marmis
-Email : marmis@gmail.com
-
-GoogleAds Coupon Generator is a Trademark of Marmis Dev.
-Copyright 2020 Marmis Dev.  All rights reserved.
+UHJvZHVjdCBSZWdpc3RlcmVkIQoKCkRFVkVMT1BFUgoKCkdvb2dsZUFkcyBDb3Vwb24gR2VuZXJhdG9yIGlzIGEgVHJhZGVtYXJrIG9mIE1hcm1pcyBEZXYuCkNvcHlyaWdodCAyMDIwIE1hcm1pcyBEZXYuICBBbGwgcmlnaHRzIHJlc2VydmVkLgo
