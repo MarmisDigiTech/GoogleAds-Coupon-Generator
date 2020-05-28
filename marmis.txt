@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -46,7 +47,7 @@ div {
   font-size: 1.2em;
 }
 p2 {
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 p3 {
   font-size: 1.8em;
@@ -68,8 +69,8 @@ span {
   <span class="tooltiptext">asdadasdmarmis@gmail.com</span>
 </div>
 
-<br><br><br><br><br>
-<p2 class="monospace">GoogleAds Coupon Generator is a Trademark of Marmis Dev.<br>
+<br><br><br><br>
+<p2 class="monospace"><a href="https://p-store.net/tools/48048/tools-untuk-mendapatkan-kupon-googleads" target="_blank">GoogleAds Coupon Generator</a> is a Trademark of Marmis Dev.<br>
 Copyright @ 2020 Marmis Dev.  All rights reserved.</p2>
 </body>
 </html>
