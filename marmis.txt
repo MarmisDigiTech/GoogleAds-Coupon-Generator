@@ -1,8 +1,42 @@
-Product Registered!
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet"> 
+<style>
+.Frederick {
+  font-family: 'Fredericka the Great', cursive;
+}
 
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+.Fugaz {
+  font-family: "Fugaz One", Courier, monospace;
+}
+p1 {
+  font-size: 1.2em;
+}
+p2 {
+  font-size: 0.8em;
+}
+p3 {
+  font-size: 1.8em;
+}
+</style>
+</head>
+<body>
+<center><p3 class="Fugaz">Product Registered!</p3>
+<br><br><br><br>
 
-DEVELOPER
+<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/238/first-place-medal_1f947.png"><img>
+<br><p1 class="Frederick">DEVELOPER</p1><br><br><br>
 
+<br><br>
+<p2 class="monospace">GoogleAds Coupon Generator is a Trademark of Marmis Dev.<br>
+Copyright @ 2020 Marmis Dev.  All rights reserved.</p2>
 
-GoogleAds Coupon Generator is a Trademark of Marmis Dev.
-Copyright 2020 Marmis Dev.  All rights reserved.
+</center>
+</body>
+</html>
