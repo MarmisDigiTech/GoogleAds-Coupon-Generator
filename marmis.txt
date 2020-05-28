@@ -1,11 +1,38 @@
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
 <style>
-.Frederick {
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: -50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<style>
+.tooltip {
   font-family: 'Fredericka the Great', cursive;
 }
 
@@ -15,7 +42,7 @@
 .Fugaz {
   font-family: "Fugaz One", Courier, monospace;
 }
-p1 {
+div {
   font-size: 1.2em;
 }
 p2 {
@@ -24,21 +51,25 @@ p2 {
 p3 {
   font-size: 1.8em;
 }
+span {
+  font-size: 1.1em;
+}
 </style>
 </head>
-<body>
-<center><p3 class="Fugaz">Product Registered!</p3>
+<body style="text-align:center;">
+<p3 class="Fugaz">Product Registered!</p3>
+
 <br><br><br><br>
 
 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/238/first-place-medal_1f947.png"><img>
-<br><p1 class="Frederick">DEVELOPER</p1><br><br><br>
-<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/238/gem-stone_1f48e.png"><img>
-<br><p1 class="Frederick">DEVELOPER</p1><br><br><br>
+<img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/whatsapp/238/gem-stone_1f48e.png"><img><br>
 
-<br><br>
+<div class="tooltip">DEVELOPER
+  <span class="tooltiptext">asdadasdmarmis@gmail.com</span>
+</div>
+
+<br><br><br><br><br>
 <p2 class="monospace">GoogleAds Coupon Generator is a Trademark of Marmis Dev.<br>
 Copyright @ 2020 Marmis Dev.  All rights reserved.</p2>
-
-</center>
 </body>
 </html>
